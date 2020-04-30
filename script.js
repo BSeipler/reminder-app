@@ -11,6 +11,7 @@ const input = document.querySelector('input');
 const leaveAnotherReminderBtn = document.querySelector('#leaveAnotherReminderBtn');
 const viewRemindersList = document.querySelector('ol');
 const deleteRemindersBtn = document.querySelector('#deleteReminders');
+let variable;
 
 // initialize empty array
 let reminders = [];
